@@ -3,10 +3,8 @@ body {
   background-image: url('http://www.zwanzigz.com/wp-content/uploads/2016/06/beers.jpg');
   background-repeat:no-repeat;
   background-size: 100%;
-  
   font-family: 'Lobster', cursive;
-  
-}
+  }
 
 form {
   margin-top: 30px;
