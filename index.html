@@ -7,6 +7,7 @@
 </head>
 <body>
   <div class="container">
+
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="page-header">
@@ -15,7 +16,7 @@
 
         <section class="beers">
           <h2>Beers</h2>
-          <ul class="beers-list"></ul>
+          <div class="beers-list"></div>
         </section>
 
         <form class="beer-form">
@@ -33,7 +34,23 @@
               placeholder="Category">
           </div>
 
-          <button class="btn btn-primary post-beer" type="button">Post</button>
+          <div class="form-rating">
+            <h3>How would you rate the beer?</h3>
+          </div>
+          
+          <!-- <form action=""> -->
+            <select name="rating" class="rating-input">
+              <option value="0">0/5</option>
+              <option value="1">1/5</option>
+              <option value="2">2/5</option>
+              <option value="3">3/4</option>
+              <option value="4">4/5</option>
+              <option value="5">5/5</option>
+            </select>
+            <br>
+    
+          <br>
+          <button class="btn btn-warning post-beer" type="button">Post</button>
         </form>
       </div>
     </div>
